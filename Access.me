@@ -1,0 +1,107 @@
+# Cataract Detection Using Supervised Machine Learning
+
+## 📌 Project Overview
+This project focuses on the **early detection of cataracts** using **supervised machine learning techniques** applied to retinal eye images. Cataracts are one of the leading causes of visual impairment, and early diagnosis can significantly reduce the risk of vision loss.
+
+The system uses **image preprocessing**, **feature extraction**, and **classification models** to distinguish between normal and cataract-affected images.
+
+---
+
+## 🎯 Objectives
+- To preprocess retinal images for noise reduction and enhancement  
+- To extract meaningful texture features using **GLCM**
+- To train and evaluate multiple supervised ML models
+- To compare model performance using standard evaluation metrics
+- To support early-stage cataract detection through automation
+
+---
+
+## 🧠 Methodology
+1. **Dataset Collection**
+   - Retinal eye images (normal & cataract)
+
+2. **Image Preprocessing**
+   - Grayscale conversion  
+   - Noise removal  
+   - Image normalization  
+
+3. **Feature Extraction**
+   - Gray Level Co-occurrence Matrix (GLCM)
+   - Features such as contrast, correlation, energy, and homogeneity
+
+4. **Machine Learning Models Used**
+   - K-Nearest Neighbors (KNN)
+   - Support Vector Machine (SVM)
+   - Random Forest
+   - Logistic Regression
+   - Naive Bayes
+
+5. **Model Evaluation**
+   - Accuracy
+   - Precision
+   - Recall
+   - F1-score
+   - Confusion Matrix
+
+---
+
+## 📊 Results
+- The models were evaluated and compared based on performance metrics
+- The best-performing model achieved **~86% accuracy**
+- Results indicate that ML-based approaches are effective for early cataract detection
+
+## 🌐 Web Interface – Cataract Detection System
+
+A user-friendly web interface was developed to allow users to upload retinal images and receive real-time cataract classification results. The system predicts whether the uploaded image is **Normal** or **Cataract** using trained supervised machine learning models.
+
+---
+
+### 🔹 Home Page
+The landing page of the web application provides a simple and intuitive interface for users.
+
+---
+
+### 🔹 Image Upload Interface
+Users can upload a retinal image for analysis using the upload interface shown below.
+
+![Image Upload](ui_screenshots/cataract.png)
+
+---
+
+### 🔹 Cataract Prediction Result
+The interface below shows the classification result for a **cataract-affected** retinal image.
+
+![Cataract Prediction](ui_screenshots/cataract.png)
+
+---
+
+### 🔹 Normal Eye Prediction Result
+The interface below shows the classification result for a **normal** retinal image.
+
+![Normal Prediction](ui_screenshots/normal.png)
+
+### 🛠 Web Application Technologies
+- Streamlit / Flask
+- Python
+- Machine Learning Models (SVM, KNN, Random Forest)
+- Image Processing with OpenCV
+
+---
+
+## 🛠️ Technologies & Tools
+- **Programming Language:** Python  
+- **Libraries:**  
+  - NumPy  
+  - Pandas  
+  - OpenCV  
+  - scikit-learn  
+  - Matplotlib / Seaborn  
+- **Development Environment:** VS Code  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 🚀 How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/s180608/Cataract-Detection-Using-Supervised-ML.git
