@@ -1,4 +1,8 @@
-# Cataract Detection Using Supervised Machine Learning
+# Cataract Detection Using Supervised Machine 
+
+
+# Live Demo : **https://cataract-detection-ai.streamlit.app/**
+
 
 ## 📌 Project Overview
 This project focuses on the **early detection of cataracts** using **supervised machine learning techniques** applied to retinal eye images. Cataracts are one of the leading causes of visual impairment, and early diagnosis can significantly reduce the risk of vision loss.
@@ -105,3 +109,4 @@ The interface below shows the classification result for a **normal** retinal ima
 1. Clone the repository:
    ```bash
    git clone https://github.com/s180608/Cataract-Detection-Using-Supervised-ML.git
+
